@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Marklist</title>
+    <link rel="stylesheet" href="Student_delete.css">
+    <link rel="stylesheet" href="fontawesome-free-6.4.2-web/fontawesome-free-6.4.2-web/css/all.css">
+    
+    
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <nav>
+                <a href="home.html" style="text-decoration: none;"><label class="logo">ABC College</label></a>
+                
+                <ul>
+                    <i class="profile fa-solid fa-user fa-lg"></i>
+                    <div class="dropdown">
+                        <button class="dropbtn">Profile</button>
+                        <div class="dropdown-content">
+                          <a href="#">SignOut</a>
+                          
+                        </div>
+                    </div>
+                
+                </ul>
+            </nav>
+        </div>
+        <div class="body1">
+           
+            <div class="sidebar">
+                <form action="">
+                    <div class="bar">
+                        <div class="bar1"></div>
+                        <button class="btn"><a href="Staff_dash.html">Dashboard</a></button>
+                    </div>
+                    <div class="bar">
+                        <div class="bar1"></div>
+                        <button class="btn"><a href="Staff_details.html">Staff details</a></button>
+                    </div>
+                    <div class="bar">
+                        <div class="bar1"></div>
+                        <button class="btn"><a href="Staff_update.html">Update Details</a></button>
+                    </div>
+                    <div class="bar">
+                        <div class="bar1"></div>
+                        <button class="btn">Delete Details</button>
+                    </div>
+                    <div class="bar">
+                        <div class="bar1"></div>
+                        <button class="btn"><a href="Student_details">Student details</a></button>
+                    </div>
+                    <div class="bar">
+                        <div class="bar1"></div>
+                        <button class="btn"><a href="Student_add.html">Add Details</a></button>
+                    </div>
+                    <div class="bar">
+                        <div class="bar1"></div>
+                        <button class="btn"><a href="Student_update.html">Update Details</a></button>
+                    </div>
+                    <div class="bar">
+                        <div class="bar1"></div>
+                        <button class="btn"><a href="Student_delete.html">Add Marklist</a></button>
+                    </div>
+                </form>
+            </div>
+
+
+            <div class="workspace">
+               <form action="Studentmarklist_servlet" method="post">
+
+                <label for="" class="text">Add Student Marklist</label><br>
+				
+                <input type="text" placeholder="Enter maths mark" class="input1" name="maths">
+				<input type="text" placeholder="Enter physics mark" class="input1" name="phy">
+				<input type="text" placeholder="Enter chemistry mark" class="input1" name="che">
+				<input type="text" placeholder="Enter cs mark" class="input1" name="cs">
+				<input type="hidden"  class="input1" name="id" value="'"+id+"'">
+				<input class="submit" type="submit" value="submit">
+               
+
+
+               </form>
+            </div>
+        
+        </div>
+
+    </div>
+
+    
+</body>
+</html>

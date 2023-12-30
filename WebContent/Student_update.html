@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="Student_update.css">
+    <link rel="stylesheet" href="fontawesome-free-6.4.2-web/fontawesome-free-6.4.2-web/css/all.css">
+    
+    
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <nav>
+                <a href="home.html" style="text-decoration: none;"><label class="logo">ABC College</label></a>
+                
+                <ul>
+                    <i class="profile fa-solid fa-user fa-lg"></i>
+                    <div class="dropdown">
+                        <button class="dropbtn">Profile</button>
+                        <div class="dropdown-content">
+                          <a href="#">SignOut</a>
+                          
+                        </div>
+                    </div>
+                
+                </ul>
+            </nav>
+        </div>
+        <div class="body1">
+           
+            <div class="sidebar">
+                <form action="">
+                    <div class="bar">
+                        <div class="bar1"></div>
+                        <button class="btn"><a href="dash_servlet">Dashboard</a></button>
+                    </div>
+                    <div class="bar">
+                        <div class="bar1"></div>
+                        <button class="btn"><a href="Staff_details.html">Staff details</a></button>
+                    </div>
+                    <div class="bar">
+                        <div class="bar1"></div>
+                        <button class="btn"><a href="Staff_update.html">Update Details</a></button>
+                    </div>
+                    <div class="bar">
+                        <div class="bar1"></div>
+                        <button class="btn">Delete Details</button>
+                    </div>
+                    <div class="bar">
+                        <div class="bar1"></div>
+                        <button class="btn"><a href="Student_details">Student details</a></button>
+                    </div>
+                    <div class="bar">
+                        <div class="bar1"></div>
+                        <button class="btn"><a href="Student_add.html">Add Details</a></button>
+                    </div>
+                    <div class="bar">
+                        <div class="bar1"></div>
+                        <button class="btn"><a href="Student_update.html">Update Details</a></button>
+                    </div>
+                    <div class="bar">
+                        <div class="bar1"></div>
+                        <button class="btn"><a href="Student_delete.html">Delete Details</a></button>
+                    </div>
+                </form>
+            </div>
+
+
+            <div class="workspace">
+                <form action="Update_servlet" method="post">
+                    <label class="text">Student Update Details</label>
+                    
+                     <input class="input1" type="text" name="id" id=""  placeholder="Slno"><br>
+ 
+                    <input class="input1" type="text" name="fname" id=""  placeholder="Full Name"><br>
+        
+                    <input class="input1" type="text" placeholder="reg no" name="regno"><br>
+        
+                    <input class="input1" type="date" placeholder="Date of Birth" name="dob"><br>
+        
+                    
+                    <input class="input1" type="text" id="" placeholder="Username" name="uname">
+        
+                   
+        
+                    <input class="submit" type="submit" value="submit">
+                </form>
+            </div>
+        
+        </div>
+
+    </div>
+
+    
+</body>
+</html>

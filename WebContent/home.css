@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 958px;
+    
+}
+.row{
+    width: 100%;
+    height: 105px;
+    background-color: #f3f3f3;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.row ul li a:hover{
+   font-size: 22px;
+}
+
+.logo{
+    color: #413559;
+    font-size: 40px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+ nav ul{
+    float: right;
+    list-style: none;
+    margin: 20px;
+
+}
+
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+    margin: 0 20px;
+    font-size: 20px;
+}
+
+nav ul li a{
+    color: #413559;
+    font-size: 19px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+}  
+.bg{
+    background-image: url("hercules-hall-surrounded-by-greenery-sunlight-daytime-munich-germany.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    background-position: center;
+    width: 100%;
+    height: 880px;
+  
+}
+body{
+    overflow: hidden;
+}
+.bg img{
+    width: 100%;
+    height: 880px;
+    margin-top: -14px;
+    opacity: 0.7;
+}
+.title{
+   
+    font-size: 60px;
+    position: relative;
+    left: 727px;
+    top: -660px;
+   color: black;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.sub-title{
+    color: black;
+    font-size: 30px;
+    position: relative;
+    left: 5px;
+    top: 70px;
+   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.box{
+    height: 253px;
+    width: 1036px;
+    background-color: #f3f3f3a8;
+    position: relative;
+    top: -574px;
+    left: 523px;
+    border-radius: 5px;
+    text-align: center;
+}
